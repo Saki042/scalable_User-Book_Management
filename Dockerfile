@@ -13,7 +13,7 @@ RUN pip install flask-sqlalchemy
 WORKDIR /app
 COPY . /app
 
-ENV FLASK_APP=./booksappcode/index.py
+ENV FLASK_APP=./userbookmgmt/index.py
 
 # Install API dependencies
 RUN pipenv install --system --deploy
